@@ -4,8 +4,10 @@
 <p>My name is {{{name}}} and I am {{age}} years old.</p>
 {{#if city}}
    <p>I am from {{city}}</p>
+   {{else}}
+   <p>city is no available.</p>
 {{/if}}
 
 {{#each hobbies}}
-  <p><b>{{this}}</b></p>
+  <p>{{this}}</p>
 {{/each}}

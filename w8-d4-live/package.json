@@ -1,0 +1,19 @@
+{
+  "name": "w8-d4-live",
+  "version": "1.0.0",
+  "description": "live practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "afroz",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2"
+  }
+}
